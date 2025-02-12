@@ -12,9 +12,20 @@ body {
 /*	rgb(153,51,204)*/
 }
 
+p {
+	font-family: "Emilys Candy", serif;
+}
+
+
+.first-page {
+	font-style: italic;
+	color:red;
+}
+
 
 .main-image {
-	max-width: 75%;
+	max-width: 25%;
+	border-radius: 3000px;
 }
 
 /*start of media query */
