@@ -191,6 +191,9 @@ h3 {
 	font-family: 'IBM+Plex', monospace;
 
 /*This is a note*/
+
+
+/*this is a comment*/
 }
 
 
@@ -335,6 +338,7 @@ background-color: lightgray;
 	background-color: rgba(67, 67, 67, 0.3);
 	padding: 0.4em;
 	margin-left: 2rem;
+	margin-bottom: 3rem;
 	border: 1px solid rgba(67, 67, 67, 0.3);
 }
 
