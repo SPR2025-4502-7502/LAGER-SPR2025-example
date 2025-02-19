@@ -73,7 +73,7 @@ p {
 
 .flex-squares {
 	display: flex;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	justify-content: center;
 
 
@@ -97,7 +97,7 @@ p {
 
 
 .purple {
-	background-image: url(../img/2001.png);
+	background-image: url(../img/BloodchildButler.jpg);
 	background-color: mediumpurple;
 	width: 40px;
 	height: 50px;
@@ -146,4 +146,22 @@ p {
 }
 
 /*start of media query */
+@media screen and (max-width: 500px){
 
+	.flex-squares {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+
+	}
+
+	.nesting {
+
+	}
+
+	.plantlist {
+		
+	}
+
+}
