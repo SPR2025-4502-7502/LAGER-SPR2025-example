@@ -151,17 +151,23 @@ p {
 	.flex-squares {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: space-between;
 
 
 	}
 
 	.nesting {
-
+		display: flex;
+		flex-direction: row;
 	}
 
 	.plantlist {
-		
+		font-size: 2rem;
+	}
+
+	.plantlist li {
+		list-style-type: georgian;
+
 	}
 
 }
