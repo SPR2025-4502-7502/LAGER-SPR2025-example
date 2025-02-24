@@ -64,7 +64,9 @@ nav ul li a:hover {
 }
 
 body {
-/*	display: flex;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	background-color: rgba(153, 51, 204, 0.5);
 /*	rgb(153,51,204)*/
 }
@@ -198,6 +200,10 @@ p {
 	
 }
 
+img {
+	border: none;
+}
+
 .main-image img {
 
 	max-width: 45%;
@@ -235,6 +241,16 @@ p {
     transparent 2px
   );
 }
+
+
+footer {
+	margin: 1rem;
+	padding: 1rem;
+	background-color: black;
+	color: whitesmoke;
+	border-radius: 10px;
+}
+
 
 /*start of media query */
 @media screen and (max-width: 500px){
