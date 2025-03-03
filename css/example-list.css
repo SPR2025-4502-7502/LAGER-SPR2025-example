@@ -231,7 +231,7 @@ button_previous {  }
 
 .stepper {  }
 
-button {
+.button {
 	background-color: orange;
 	margin: 1rem;
 	padding: 1rem;
@@ -665,6 +665,13 @@ background-color: rgba(218,165,32,0.5);
 body {
 /*		background-color: #282828;*/
 /*		color: #fff;*/
+
+/*	background: rgb(131,58,180);*/
+/*	background: linear-gradient(45deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);*/
+
+background: rgb(163,58,180);
+background: linear-gradient(45deg, rgba(163,58,180,0.48211960565476186) 0%, rgba(253,29,29,0.6696196056547619) 50%, rgba(252,176,69,1) 100%);
+
 }
 
 main {
@@ -778,14 +785,33 @@ nav ul li a {
 	margin: auto;
 }
 
+nav ul li a button {
+	font-family: 'Solway', serif;
+	max-width: 100%;
+	color: rgba(230,68,0,0.5);
+/*	border: 1px solid	rgba(0,162,230,0.5);*/
+/*	border: 5px solid	rgba(230,68,0,0.5);*/
+	border: none;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: uppercase;
+	font-size: 1rem;
+	background-color: whitesmoke;
+}
+
 nav ul li a:visited {
 	text-decoration: none;
 	color: forestgreen;
 }
 
-nav ul li a:hover {
+nav ul li a:hover button{
 	text-decoration: ;
-	color: blue;
+	color: yellow;
+	background-color: orangered;
+}
+
+nav ul li:hover {
+	background-color: orangered;
 }
 
 
