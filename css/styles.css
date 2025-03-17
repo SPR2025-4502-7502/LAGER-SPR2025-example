@@ -854,7 +854,7 @@ background-color: rgba(218,165,32,0.5);
 
 
 /*start of media queries*/
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
 
 
 
@@ -1112,7 +1112,7 @@ nav ul li:hover {
 
 }
 
-@media screen and (min-width:501px){
+@media screen and (min-width:601px) and (max-width:650px){
 	body {
 		background-color: #67a0e5;
 }
@@ -1130,6 +1130,10 @@ nav ul li:hover {
 	flex-direction: row !important;
 	margin: 3rem;
 
+}
+
+body {
+	background-color: orangered;
 }
 .example-image img {
 	background-color: crimson;
