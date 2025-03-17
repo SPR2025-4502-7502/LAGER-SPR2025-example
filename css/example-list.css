@@ -263,11 +263,11 @@ example-image {
 
 .example-image img {
 	display: flex;
-  	max-width:230px;
-  	max-height:95px;
+  max-width:230px;
+  max-height:95px;
  	width: auto;
-  	height: auto;
-  	margin: 1rem;
+  height: auto;
+  margin: 1rem;
 }
 
 .listings2 {
@@ -298,6 +298,11 @@ wiki link wiki-link*/
 	font-family: "Roboto Slab", serif;
 /*	font-family: 'Pixelify Sans', cursive; */
 /*	This will fall back to a default font when not connected*/
+}
+
+.list-text-stack {
+	display: flex;
+	flex-direction: column-reverse;
 }
 
 .date-label {
