@@ -499,9 +499,35 @@ Description desc-label
 Notable disctintion notable-label
 wiki link wiki-link*/
 
+.rectangle {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+
+
+.square {
+	display: flex;
+	max-width: 10rem;
+	margin: auto;
+
+}
+
+.square-item {
+	display: flex;
+
+}
+
+.square img {
+	max-width: 100%;
+	
+	padding: 0.5rem;
+}
+
+
 .list-item {
 	display: flex;
-/*	flex-wrap: wrap;*/
+
 	box-shadow: inset 1rem 1rem #f9f3db;
 	border-radius: 3px;
 
@@ -905,7 +931,7 @@ main {
 img {
 	display: flex;
 		align-items: center;
-		width: 100%;
+		max-width: 100%;
 	}
 
 .swap-example {
