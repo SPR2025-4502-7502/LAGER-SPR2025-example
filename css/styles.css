@@ -600,6 +600,22 @@ background-color: lightgray;
 	align-items: flex-start;
 	position: relative;
 }
+
+.list-image-column {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+}
+
+.list-image-column img {
+	padding: 2px;
+}
+
+.list-image-column .img-credit {
+	position: relative;
+	bottom: 0;
+	right: 0;
+}
    
 .img-credit {
 	    
@@ -1159,7 +1175,7 @@ nav ul li:hover {
 }
 
 body {
-	background-color: orangered;
+/*	background-color: orangered;*/
 }
 .example-image img {
 	background-color: crimson;
