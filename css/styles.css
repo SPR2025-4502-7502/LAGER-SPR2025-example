@@ -637,7 +637,16 @@ wiki link wiki-link*/
 .date-label {
 
 }
+.listings2 .list-item2 .list-text-stack .date-label {
+		font-weight: 400;
+	margin-left:1.2rem;
+	padding: 0.25rem;
+	margin-top: -1rem;
+}
 
+.listings2 .list-item2 .list-text-stack h2 {
+	margin-left: 1rem;
+}
 
 .list-item .date-label {
 	display: flex;
