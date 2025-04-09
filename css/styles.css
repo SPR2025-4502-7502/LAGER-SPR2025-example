@@ -368,6 +368,89 @@ main {
 }
 
 
+/*gallery css*/
+.gallery {
+
+
+}
+
+button_next {
+
+}
+
+button_previous {
+
+}
+
+stepper {
+
+}
+
+
+
+.gallery-image {
+
+}
+
+
+
+
+
+
+/*Photo gallery css for gallery-test*/
+
+.gallery-example {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+/*	background-color: orangered;*/
+}
+
+
+.gallery-descrip {
+
+}
+
+
+.button_holder {
+	display: flex;
+	flex-direction: row;
+}
+
+button_next {  }
+button_previous {  }
+
+.stepper {  }
+
+buttongallery {
+	background-color: orange;
+	margin: 1rem;
+	padding: 1rem;
+	min-width: 10rem;
+	font-size: 1.2rem;
+	border-radius: 0.5rem;
+}
+
+.button-start {
+/*	background-color: forestgreen;*/
+}
+
+.gallery-image {
+	max-width: 80%;
+	
+
+}
+
+.gallery-image img {
+	width: 100%;
+/*	max-height: 500px;*/
+}
+
+/*end gallery */
+
+
+
 p {
 	font-family: font-family: 'Noto Sans', sans-serif;
 /*	font-size: 1rem;*/
@@ -490,6 +573,10 @@ example-image {
 	display: flex;
 	flex-wrap: wrap;
 	
+}
+
+.hideThis {
+	display: none;
 }
 
 /*
