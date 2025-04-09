@@ -87,7 +87,9 @@ body {
 
 .gallery-body {
 
-	background-color: orange;
+	background: rgb(163,58,180);
+	background: linear-gradient(45deg, rgba(163,58,180,0.48211960565476186) 0%, rgba(253,29,29,0.6696196056547619) 50%, rgba(252,176,69,1) 100%);
+
 }
 
 
@@ -421,7 +423,9 @@ stepper {
 button_next {  }
 button_previous {  }
 
-.stepper {  }
+.stepper {  
+	vertical-align: middle;
+}
 
 buttongallery {
 	background-color: orange;
@@ -430,6 +434,7 @@ buttongallery {
 	min-width: 10rem;
 	font-size: 1.2rem;
 	border-radius: 0.5rem;
+	text-align: center;
 }
 
 .button-start {
@@ -462,7 +467,7 @@ p {
 footer {
 	font-family: 'Playfair Display', serif;
 	font-weight: 100;
-	color: seagreen;
+	color: #113320;
 /*	background-color: whitesmoke;*/
 	max-width: 800px;
 	margin: auto;
@@ -525,8 +530,12 @@ p {
 	flex-direction: row;
 }
 
-button_next {  }
-button_previous {  }
+button_next { 
+	
+ }
+button_previous { 
+
+ }
 
 .stepper {  }
 
