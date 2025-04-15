@@ -446,14 +446,16 @@ buttongallery {
 .gallery-image {
 	max-width: 80%;
 
+
 	
 
 }
 
 .gallery-image img {
 	width: 100%;
-/*	height:200px;*/
-/*	max-height: 500px;*/
+/*	aspect-ratio: auto;
+	max-height: 600px;
+	margin: auto;*/
 }
 
 /*end gallery */
@@ -556,14 +558,9 @@ button_previous {
 /*	background-color: forestgreen;*/
 }
 
-.gallery-image {
-	max-width: 80%;
 
-}
 
-.gallery-image img {
-	width: 100%;
-}
+
 
 
 example-image {
