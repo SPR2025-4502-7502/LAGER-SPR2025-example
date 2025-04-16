@@ -444,7 +444,7 @@ buttongallery {
 }
 
 .gallery-image {
-	max-width: 80%;
+/*	max-width: 80%;*/
 
 
 	
@@ -1120,6 +1120,7 @@ main {
 	margin: auto;
 
 }
+
 
 
 .list-item {
