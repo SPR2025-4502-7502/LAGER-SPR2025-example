@@ -15,8 +15,12 @@
   position: relative;
   padding: unset;
   margin: unset;
-  font-size: 2rem;
+  font-size: 4rem;
+
 }
+
+
+
 
 .anchor-nav {
 	display: flex;
