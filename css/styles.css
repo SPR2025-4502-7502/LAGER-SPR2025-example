@@ -1223,9 +1223,9 @@ nav {
 nav ul {
 	max-height: 130px;
 	display: flex;
-/*	flex-direction: row-reverse;*/
+	flex-direction: row-reverse;
 /*	align-items: stretch;*/
-	flex-direction: column;
+/*	flex-direction: column;*/
 	justify-content: center;
 	align-content: stretch;
 	flex-wrap: wrap;
