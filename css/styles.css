@@ -45,6 +45,7 @@
 
 .red-trees {
 	background-image: url("../img/starfield-red-trees.png") ;
+	background-size: contain;
 }
 
 h1 {
